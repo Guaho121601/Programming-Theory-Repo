@@ -1,9 +1,9 @@
 ﻿public class Coffee : Cup
 {
 
-    private int drinkVolume = 10;
+    private int drinkVolume = 10; // ENCAPSULATION
 
-    protected override void DrinkMethod()
+    protected override void DrinkMethod() // POLYMORPHISM
     {
         base.DrinkMethod();
         if(GameController.healthCount <= 100 - drinkVolume)

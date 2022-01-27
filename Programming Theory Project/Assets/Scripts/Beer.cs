@@ -1,7 +1,7 @@
 ﻿public class Beer : Cup
 {
     private int drinkVolume = 15;
-    protected override void DrinkMethod()
+    protected override void DrinkMethod() // POLYMORPHISM
     {
         base.DrinkMethod();
         if (GameController.healthCount > 0 && GameController.healthCount < drinkVolume)

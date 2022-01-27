@@ -1,7 +1,7 @@
 ﻿public class Tee : Cup
 {
-    private int drinkVolume = 5;
-    protected override void DrinkMethod()
+    private int drinkVolume = 5; // ENCAPSULATION
+    protected override void DrinkMethod() // POLYMORPHISM
     {
         base.DrinkMethod();
         if (GameController.healthCount <= 100 - drinkVolume)
